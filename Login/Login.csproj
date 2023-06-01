@@ -46,11 +46,17 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Form1.cs">
+    <Compile Include="PresupuestoOK.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form1.Designer.cs">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <Compile Include="PresupuestoOK.Designer.cs">
+      <DependentUpon>PresupuestoOK.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ReservasOK.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ReservasOK.Designer.cs">
+      <DependentUpon>ReservasOK.cs</DependentUpon>
     </Compile>
     <Compile Include="Reservas-eliminar.cs">
       <SubType>Form</SubType>
@@ -84,8 +90,11 @@
     <Compile Include="segundoForm.Designer.cs">
       <DependentUpon>segundoForm.cs</DependentUpon>
     </Compile>
-    <EmbeddedResource Include="Form1.resx">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <EmbeddedResource Include="PresupuestoOK.resx">
+      <DependentUpon>PresupuestoOK.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ReservasOK.resx">
+      <DependentUpon>ReservasOK.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="IngresoPasajeros.resx">
       <DependentUpon>IngresoPasajeros.cs</DependentUpon>
