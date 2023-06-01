@@ -1,6 +1,6 @@
 ﻿namespace Login
 {
-    partial class primerForm
+    partial class Login
     {
         /// <summary>
         /// Required designer variable.
